@@ -935,3 +935,126 @@ nav .menu li.active:hover a{
   background-image: url(../images/ipados_quick_note_caption.png);
   transform: translate(511px, 470px);
 }
+
+/* apps */
+.apps{
+  margin-top: 368px;
+}
+
+.apps h1{
+  background-image: url(../images/apps_headline.png);
+  width: 500px;
+  height: 264px;
+  transform: translate(17px,0);
+}
+
+.apps .infos{
+  margin-top: 36px;
+  margin-left: 82px;
+}
+
+.apps .figures{
+  display: flex;
+  height: 788px;
+
+}
+
+.apps .figures >div{
+  flex-grow: 1;
+  position: relative;
+}
+.apps .figure-masterclass figure{
+  transform: translate(578px,-431px);
+}
+
+.apps .figure-masterclass figcaption{
+  background-image: url(../images/apps_masterclass_caption.png);
+  width: 100px;
+  height: 25px;
+  transform: translate(26px,690px);
+}
+
+.apps .figure-adobe figure{
+  transform: translate(-515px,85px)
+}
+
+.apps .figure-adobe figcaption{
+  background-image: url(../images/apps_adobe_caption.png);
+  width: 105px;
+  height: 24px;
+  transform: translate(544px,514px);
+}
+
+.apps .figure-fantasian figure{
+  transform: translate(-103px,318px)
+}
+
+.apps .figure-fantasian figcaption{
+  background-image: url(../images/apps_fantasian_caption.png);
+  width: 74px;
+  height: 22px;
+  transform: translate(24px,483px);
+}
+
+.apps .figure-books figure{
+  transform: translate(-133px,-150px)
+}
+
+.apps .figure-books figcaption{
+  background-image: url(../images/apps_books_caption.png);
+  width: 50px;
+  height: 27px;
+  transform: translate(397px,707px);
+}
+
+.apps .figure-goodnotes figure{
+  transform: translate(-93px,68px)
+}
+
+.apps .figure-goodnotes figcaption{
+  background-image: url(../images/apps_goodnotes_caption.png);
+  width: 99px;
+  height: 26px;
+  transform: translate(24px, 690px);
+}
+
+
+/* privacy */
+
+.privacy{
+  margin-top: 238px;
+
+}
+
+.privacy h1{
+  background-image: url(../images/privacy_headline.png);
+  width: 482px;
+  height: 237px;
+  margin-left: auto; /* 오른쪽정렬 */
+  position: relative;
+  z-index: 1;
+  transform: translate(57px,0);
+}
+
+.privacy .infos{
+  margin-top: 38px;
+  align-items: flex-end; /* 오른쪽정렬 */
+}
+
+.privacy figure{
+  transform: translate(-215px, -500px);
+}
+
+.privacy figcaption .caption-apple-id {
+  width: 170px;
+  height: 26px;
+  background-image: url(../images/privacy_caption_apple_id.png);
+  transform: translate(195px,-13px);
+}
+
+.privacy figcaption .caption-touch-id {
+  width: 150px;
+  height: 31px;
+  background-image: url(../images/privacy_caption_touch_id.png);
+  transform: translate(533px,485px);
+}
